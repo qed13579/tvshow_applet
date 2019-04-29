@@ -1,0 +1,99 @@
+/* pages/story/story.wxss */
+
+page {
+  height: 100%;
+}
+
+.cover {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 222;
+  background-color: black;
+  opacity: 0;
+}
+
+.story {
+  display: block;
+  height: 1000rpx;
+  width: 100%;
+  background-color: yellow;
+}
+
+.bigword {
+  text-align: center;
+  font-size: 70rpx;
+}
+
+.littleword {
+  text-align: center;
+  font-size: 50rpx;
+}
+
+.canvas {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  background-color: #ffda44;
+  display: block;
+  height: 50%;
+  width: 90%;
+  margin: 0 atuo;
+  border: 3px solid #000;
+  box-sizing: border-box;
+}
+
+.page2 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-box{
+  position: absolute;  
+  top: 60%;
+  left: 5%;
+  width: 90%;
+}
+.btnagain::after {
+  display: none;
+}
+
+.btnagain {
+  line-height: 70rpx;
+  font-weight: bold;
+  height: 80rpx;
+  background-color: #fff;
+  display: block;
+  margin-bottom: 20rpx;
+  border: 6rpx solid black;
+}
+
+.save::after {
+  display: none;
+}
+
+.save {
+  background-color: #ff672b;
+  line-height: 70rpx;
+  font-weight: bold;
+  height: 80rpx;
+  display: inline-block;
+  width: 45%;
+  border: 6rpx solid black;
+}
+
+.share::after {
+  display: none;
+}
+
+.share {
+  line-height: 70rpx;
+  font-weight: bold;
+  height: 80rpx;
+  background-color: #fff;
+  display: inline-block;
+  width: 45%;
+  margin-left: 10%;
+  border: 6rpx solid black;
+}

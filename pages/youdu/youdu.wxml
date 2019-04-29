@@ -1,0 +1,51 @@
+<!--pages/youdu/youdu.wxml-->
+<!-- <view class='content'>
+<view class='topic'>你的故事有毒...99%的人看到结果都哭了</view>
+<image src="http://o6ske6j9n.bkt.clouddn.com/gsdemo.png" id="funny"></image>
+<form bindsubmit="formSubmit">
+<input  class="input" name="name" placeholder="请输入名字"></input>
+
+ <radio-group class="radio-group" bindchange="radioChange" name="label">
+ <label>
+    <radio name="type" value="1" checked="checked">我是男生</radio>
+    <radio name="type" value="0">我是女生</radio>
+    
+    </label>
+    </radio-group>
+    <button id="draw" form-type="submit">生成我的故事</button>
+    </form>
+</view>
+    -->
+
+<image class='bigbox' mode='scaleToFill'  src='../../image/firstpage.png'>
+</image>
+<form bindsubmit="formSubmit">
+<view class='inputbox'>
+<input class='input' maxlength='5'  name="name" placeholder="请输入名字"></input>
+</view>
+<view class='radiobox'>
+ <radio-group class="radio-group" bindchange="radioChange" name="label">
+ <image class='radioimg'  mode='scaleToFill' src='../../image/radio.png'></image>
+ <label>
+    <view class='radio11' style='opacity: {{hidden}};' >
+    <radio class='radio1' name="type" checked='' bindtap='man' value="1" checked="checked"></radio>
+    </view>
+    <view class='radio22'   style='opacity: {{hidden1}};' >
+    <radio class='radio2' name="type" value="0" bindtap='woman'></radio>
+    </view>
+    </label>
+</radio-group>
+
+
+</view>
+
+<button form-type="submit" style='' class='btnshare' >
+生成
+ <!-- <image class='finish' src='../../image/finish.png' mode='scaleToFill'></image>  -->
+</button>
+    </form>
+
+
+   <view style='position:fixed; bottom:0px; width:100%;'>
+       <ad unit-id="adunit-c9ee552d88186b56"></ad>   
+  </view>

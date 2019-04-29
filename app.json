@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/youdu/youdu",
+      "pages/story/story",
+
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

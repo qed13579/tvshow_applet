@@ -1,0 +1,33 @@
+<!--pages/story/story.wxml-->
+<view class='cover' hidden='{{hidden}}'></view>
+<image class='page2' mode='scaleToFill' src='../../image/page2.jpg'></image>
+<canvas class='canvas' canvas-id="firstCanvas" bindtap='previewImg'></canvas>
+<!-- <image class='canvas' src='{{picture1}}' bindtap='previewImg'  ></image> -->
+
+<view class='btn-box'>
+<button class='btnagain' bindtap='random'>再来一次</button>
+
+<button class='save' bindtap='save'>保存到相册</button>
+
+<button class='share' open-type="share" bindtap='onShareAppMessage'>邀请好友玩</button>
+
+</view>
+
+<!-- <view class='story'>
+<block wx:for="{{common}}" wx:for-index="index" wx:for-item="item">
+<block wx:if="{{index%2==0}}" wx:for-index="index" wx:for-item="item">
+<view class='bigword'>{{common[index]}}</view>
+</block>
+
+<block wx:if="{{index%2!=0}}" wx:for-index="index" wx:for-item="item">
+<view class='littleword'>{{common[index]}}</view>
+</block>
+
+</block>
+
+</view> -->
+
+
+   <view style='position:fixed; bottom:0px; width:100%;'>
+       <ad unit-id="adunit-b31f9151ef6c7b10"></ad>   
+  </view>
